@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S. Sangavi - Portfolio Presentation</title>
+<style>
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+margin: 0;
+font-family: 'Poppins', sans-serif;
+background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+overflow: hidden;
+}
+.container {
+text-align: center;
+margin-bottom: 20px;
+}
+.title {
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 25px;
+letter-spacing: 2px;
+text-transform: uppercase;
+background: linear-gradient(to right, #3498db, #8e44ad);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: glow 2s infinite alternate;
+}
+@keyframes glow {
+from { text-shadow: 0 0 10px #fff; }
+to { text-shadow: 0 0 20px #3498db; }
+}
+.slideshow-container {
+width: 85%;
+max-width: 950px;
+background: rgba(255,255,255,0.95);
+padding: 30px;
+border-radius: 20px;
+box-shadow: 0px 8px 25px rgba(0,0,0,0.25);
+position: relative;
+}
+.slide {
+display: none;
+animation: fade 0.8s;
+}
+@keyframes fade {
+from {opacity: 0.3; transform: translateY(20px);}
+to {opacity: 1; transform: translateY(0);}
+}
+h2 {
+color: #34495e;
+margin-bottom: 15px;
+font-size: 24px;
+border-bottom: 2px solid #3498db;
+display: inline-block;
+padding-bottom: 5px;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+p, li {
+font-size: 18px;
+color: #2c3e50;
+line-height: 1.6;
+}
+ul {
+margin-top: 10px;
+list-style: square;
+padding-left: 20px;
+}
+.nav-btn {
+cursor: pointer;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background: linear-gradient(135deg, #3498db, #8e44ad);
+color: white;
+padding: 14px 20px;
+border-radius: 50%;
+font-size: 22px;
+border: none;
+transition: 0.3s;
+}
+.prev { left: -65px; }
+.next { right: -65px; }
+.nav-btn:hover {
+background: linear-gradient(135deg, #8e44ad, #3498db);
+transform: translateY(-50%) scale(1.1);
+}
+.dots {
+text-align: center;
+margin-top: 20px;
+}
+.dot {
+cursor: pointer;
+height: 14px;
+width: 14px;
+margin: 0 5px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.4s;
+}
+.active, .dot:hover {
+background-color: #3498db;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<div class="title">Interactive Portfolio Using HTML, CSS & JavaScript</div>
+
+<div class="slideshow-container">
+
+<!-- Slide 1 -->
+<div class="slide">
+<h2>1. Introduction</h2>
+<p><b>Name:</b> S. Sangavi</p>
+<p><b>Location:</b> 29 Krishna Nagar, Thiruvallur</p>
+<p><b>Mobile:</b> 9962383142</p>
+<p><b>Email:</b> sathyasaravanan1302@gmail.com</p>
+</div>
+
+<!-- Slide 2 -->
+<div class="slide">
+<h2>2. Inspiration</h2>
+<p>Google CEO Sundar Pichai</p>
+<p><b>Role Model:</b> My Father, Mr. Saravanan</p>
+<p><b>Ambition:</b> To successfully reach an IT job</p>
+</div>
+
+<!-- Slide 3 -->
+<div class="slide">
+<h2>3. Education</h2>
+<p>BCA Student🧑🏻‍🎓</p>
+<p><b>College:</b> Arakkonam, Attupakkam</p>
+<p><b>University:</b> Thiruvalluvar University</p>
+</div>
+
+<!-- Slide 4 -->
+<div class="slide">
+<h2>4. Skills</h2>
+<ul>
+<li>HTML Programming</li>
+<li>Python</li>
+<li>C++</li>
+<li>Data Structure</li>
+<li>English Communication (Completed in Naan Mudhalvan)</li>
+</ul>
+</div>
+
+<!-- Slide 5 -->
+<div class="slide">
+<h2>5. Project & Achievements</h2>
+<p><b>Project:</b> Overview English Communication</p>
+</div>
+
+<!-- Slide 6 -->
+<div class="slide">
+<h2>6. Languages Known</h2>
+<p><b>Tamil:</b> Reading and Writing</p>
+<p><b>English:</b> Reading and Writing</p>
+<p><b>Hindi:</b> Reading and Writing</p>
+<p><b>Malayalam:</b> Reading </p>
+</div>
+
+<!-- Slide 7 -->
+<div class="slide">
+<h2>7. Career Objective</h2>
+<p><i>"To secure a challenging role in the IT sector, grow with innovation, and inspire others through my journey."</i></p>
+</div>
+
+<!-- Slide 8 -->
+<div class="slide">
+<h2>8. Dream Project</h2>
+<p><b>Project Title:</b> 👾AI-powered Student Assistant</p>
+<p><b>🔖Goal:</b> To create a smart application that helps students learn faster and better.</p>
+</div>
+
+<!-- Slide 9 -->
+<div class="slide">
+<h2>9. Hobbies & Interests</h2>
+<ul>
+<li>📱Reading Tech Blogs</li>
+<li>💻Coding & Problem Solving</li>
+<li>🎶Listening to Music</li>
+<li>🔍Exploring New Gadgets</li>
+</ul>
+</div>
+
+<!-- Slide 10 -->
+<div class="slide">
+<h2>10. Strengths & Weaknesses</h2>
+<p><b>💪🏻Strengths:</b> Quick Learner, Teamwork, Creativity,To Share love and Care</p>
+<p><b>🙂Weaknesses:</b> Overthinking, Perfectionist mindset, believe madly</p>
+</div>
+
+<!-- Slide 11 -->
+<div class="slide">
+<h2>11. Contact</h2>
+<p><b>Email:</b> sathyasaravanan1302@gmail.com</p>
+<p><b>Phone:</b> 9962383142</p>
+<h><p><i>🌸Thank you for viewing my portfolio 🌸</h></i></p>
+</div>
+
+<!-- Navigation buttons -->
+<button class="nav-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+<button class="nav-btn next" onclick="changeSlide(1)">&#10095;</button>
+
+<!-- Dots -->
+<div class="dots">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+<span class="dot" onclick="currentSlide(4)"></span>
+<span class="dot" onclick="currentSlide(5)"></span>
+<span class="dot" onclick="currentSlide(6)"></span>
+<span class="dot" onclick="currentSlide(7)"></span>
+<span class="dot" onclick="currentSlide(8)"></span>
+<span class="dot" onclick="currentSlide(9)"></span>
+<span class="dot" onclick="currentSlide(10)"></span>
+<span class="dot" onclick="currentSlide(11)"></span>
+</div>
+</div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function changeSlide(n) {
+showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+let i;
+let slides = document.getElementsByClassName("slide");
+let dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
