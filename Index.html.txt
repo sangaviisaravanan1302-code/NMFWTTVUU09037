@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S. Sangavi - Portfolio Presentation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="container">
+  <div class="title">Interactive Portfolio Using HTML, CSS & JavaScript</div>
+  
+  <div class="slideshow-container">
+
+
+    <!-- Slide 1 -->
+    <div class="slide">
+      <h2>1. Introduction</h2>
+      <p><b>Name:</b> S. Sangavi</p>
+      <p><b>Location:</b> 29 Krishna Nagar, Thiruvallur</p>
+      <p><b>Mobile:</b> 9962383142</p>
+      <p><b>Email:</b> sathyasaravanan1302@gmail.com</p>
+    </div>
+
+
+    <!-- Slide 2 -->
+    <div class="slide">
+      <h2>2. Inspiration</h2>
+      <p>Google CEO Sundar Pichai</p>
+      <p><b>Role Model:</b> My Father, Mr. Saravanan</p>
+      <p><b>Ambition:</b> To successfully reach an IT job</p>
+    </div>
+
+
+    <!-- Slide 3 -->
+    <div class="slide">
+      <h2>3. Education</h2>
+      <p>BCA Student🧑🏻‍🎓</p>
+      <p><b>College:</b> Arakkonam, Attupakkam</p>
+      <p><b>University:</b> Thiruvalluvar University</p>
+    </div>
+
+
+    <!-- Slide 4 -->
+    <div class="slide">
+      <h2>4. Skills</h2>
+      <ul>
+        <li>HTML Programming</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li>Data Structure</li>
+        <li>English Communication (Completed in Naan Mudhalvan)</li>
+      </ul>
+    </div>
+
+
+    <!-- Slide 5 -->
+    <div class="slide">
+      <h2>5. Project & Achievements</h2>
+      <p><b>Project:</b> Overview English Communication</p>
+    </div>
+
+
+    <!-- Slide 6 -->
+    <div class="slide">
+      <h2>6. Languages Known</h2>
+      <p><b>Tamil:</b> Reading and Writing</p>
+      <p><b>English:</b> Reading and Writing</p>
+      <p><b>Hindi:</b> Reading and Writing</p>
+      <p><b>Malayalam:</b> Reading </p>
+    </div>
+
+
+    <!-- Slide 7 -->
+    <div class="slide">
+      <h2>7. Career Objective</h2>
+      <p><i>"To secure a challenging role in the IT sector, grow with innovation, and inspire others through my journey."</i></p>
+    </div>
+
+
+    <!-- Slide 8 -->
+    <div class="slide">
+      <h2>8. Dream Project</h2>
+      <p><b>Project Title:</b> 👾AI-powered Student Assistant</p>
+      <p><b>🔖Goal:</b> To create a smart application that helps students learn faster and better.</p>
+    </div>
+
+
+    <!-- Slide 9 -->
+    <div class="slide">
+      <h2>9. Hobbies & Interests</h2>
+      <ul>
+        <li>📱Reading Tech Blogs</li>
+        <li>💻Coding & Problem Solving</li>
+        <li>🎶Listening to Music</li>
+        <li>🔍Exploring New Gadgets</li>
+      </ul>
+    </div>
+
+
+    <!-- Slide 10 -->
+    <div class="slide">
+      <h2>10. Strengths & Weaknesses</h2>
+      <p><b>💪🏻Strengths:</b> Quick Learner, Teamwork, Creativity, To Share love and Care</p>
+      <p><b>🙂Weaknesses:</b> Overthinking, Perfectionist mindset, believe madly</p>
+    </div>
+
+
+    <!-- Slide 11 -->
+    <div class="slide">
+      <h2>11. Contact</h2>
+      <p><b>Email:</b> sathyasaravanan1302@gmail.com</p>
+      <p><b>Phone:</b> 9962383142</p>
+      <p><i>🌸Thank you for viewing my portfolio 🌸</i></p>
+    </div>
+
+
+    <!-- Navigation buttons -->
+    <button class="nav-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="nav-btn next" onclick="changeSlide(1)">&#10095;</button>
+
+
+    <!-- Dots -->
+    <div class="dots">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+      <span class="dot" onclick="currentSlide(9)"></span>
+      <span class="dot" onclick="currentSlide(10)"></span>
+      <span class="dot" onclick="currentSlide(11)"></span>
+    </div>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
